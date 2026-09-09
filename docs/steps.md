@@ -129,3 +129,32 @@ It probably means the dataset is using numeric codes to represent the different 
 
 ![alt text](image-2.png)
 
+# Build Fact Table:
+
+![alt text](image-3.png)
+
+`this setup, we will find it in many events in many companies: in orders, invoices, shipement...`
+so can we deal with this stuff inside our model for business inteligence.
+
+![alt text](image-4.png)
+
+it is a common mistake if we build a relationship between 
+
+![alt text](image-7.png)
+
+the correct decition:
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+
+![alt text](image-5.png)
+
+- Append orders_2025 to orders_2026, then delete non commun columns to obtain orders table.
+- create dim_orders_flag table (channels, status, priority) from columns in orders table == data enhancement/enrichement.
+- merge dimentional tables to the fact_sales table.
+- remove unecesarry columns
+- fact table should have just numbers, keys and dates???
+
+![alt text](image-10.png)
