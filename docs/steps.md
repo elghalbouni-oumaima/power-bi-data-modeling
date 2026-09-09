@@ -112,3 +112,20 @@ It probably means the dataset is using numeric codes to represent the different 
 
 # Building Dimentions
 ![alt text](image.png)
+
+## dim_customer:
+
+- Merge around 6 table into one table.
+- delete unuseful columns.
+- filter rows
+- groub by id to ckecks if there is any duplicates.
+
+## dim_products
+- merge 2 table into one.
+- create a surrogate key.
+- capitlize a column so that we have identical columns while merging and getting no errors.
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
