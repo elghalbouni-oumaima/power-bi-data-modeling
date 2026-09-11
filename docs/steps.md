@@ -155,6 +155,10 @@ the correct decition:
 - create dim_orders_flag table (channels, status, priority) from columns in orders table == data enhancement/enrichement.
 - merge dimentional tables to the fact_sales table.
 - remove unecesarry columns
-- fact table should have just numbers, keys and dates???
+- fact table should have just numbers (measures), keys and dates???
 
 ![alt text](image-10.png)
+
+## Factless fact:
+
+![alt text](image-11.png)
